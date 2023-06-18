@@ -24,7 +24,6 @@ public class Chassis extends SubsystemBase {
 
   private MecanumDrive m_drive;
 
-
   public Chassis() {
     m_leftFront = new WPI_TalonFX(DriveTrainConstants.kLeftFrontPort);
     m_leftRear = new WPI_TalonFX(DriveTrainConstants.kLeftRearPort);
